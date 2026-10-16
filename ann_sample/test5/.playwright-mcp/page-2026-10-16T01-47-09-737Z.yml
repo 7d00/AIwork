@@ -1,0 +1,5 @@
+- generic [ref=f8e2]:
+  - paragraph [ref=f8e3]:
+    - img "404 Error" [ref=f8e4]
+  - paragraph [ref=f8e5]:
+    - button "Go to Lampcook" [ref=f8e6] [cursor=pointer]

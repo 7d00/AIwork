@@ -1,0 +1,407 @@
+- generic [active] [ref=f2e1]:
+  - generic:
+    - generic:
+      - link "주요 콘텐츠로 이동" [ref=f2e2] [cursor=pointer]
+      - link "접근성 도움말" [ref=f2e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=ko
+  - generic [ref=f2e8]:
+    - search [ref=f2e9]:
+      - generic [ref=f2e11]:
+        - link "Google 홈페이지로 이동" [ref=f2e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=ko&sa=X&ved=2ahUKEwjExvj2tL2XAxXjsFYBHYCNI2oQPHoECAYQBA
+        - generic [ref=f2e22]:
+          - combobox "검색" [ref=f2e24]: 바람떡 조리법 바람떡 조리법
+          - generic [ref=f2e25]:
+            - button "지우기" [ref=f2e29] [cursor=pointer]
+            - generic [ref=f2e34]:
+              - button "입력 도구" [ref=f2e37] [cursor=pointer]
+              - button "음성 검색" [ref=f2e43] [cursor=pointer]
+              - button "이미지로 검색" [ref=f2e48] [cursor=pointer]
+    - generic [ref=f2e51]:
+      - button "설정" [ref=f2e53] [cursor=pointer]
+      - button "공유" [ref=f2e58] [cursor=pointer]
+      - generic [ref=f2e64]:
+        - button "Google 앱" [ref=f2e66] [cursor=pointer]
+        - link "로그인" [ref=f2e71] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=ko&passive=true&continue=https://www.google.com/search%3Fq%3D%25EB%25B0%2594%25EB%259E%258C%25EB%2596%25A1%2B%25EC%25A1%25B0%25EB%25A6%25AC%25EB%25B2%2595%26sei%3DiYHRariDNfPk2roPnd6PoAE&ec=futura_srp_og_si_72236_p
+  - generic [ref=f2e73]:
+    - navigation [ref=f2e79]:
+      - generic [ref=f2e85]:
+        - list [ref=f2e86]:
+          - listitem [ref=f2e87]:
+            - link "AI 모드" [ref=f2e90] [cursor=pointer]:
+              - /url: /search?q=%EB%B0%94%EB%9E%8C%EB%96%A1+%EC%A1%B0%EB%A6%AC%EB%B2%95&sca_esv=7c1e84b1a6318645&sxsrf=APpeQntPiUkrNR0BtanZA9WvmiYvVyPEsg:1792115082169&udm=50&fbs=ABfTbFUgt-aXEFkBhPo84x72c1XoLHFs6TcISYM3FayWAWWA70Xm5U6RGqPr3iDDBI1ZGXVB2hVvUMU_HPv4yLl4NRraeZ6sLn-vAfHq77GQaQofPYB5k5_nygU_rR__HpXYgBzJKugbNW8wqP8DsR5irNFLVn18Ga3NfmkAuxH3--Qeq4M09UHKslvFE-LLj0zmUdEJcYZW0r3b8POwpPZIY9FUD3NlRQ&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwjExvj2tL2XAxXjsFYBHYCNI2oQ2J8OegQIFBAD
+          - listitem [ref=f2e94]:
+            - link "전체" [disabled] [ref=f2e95]
+          - listitem [ref=f2e98]:
+            - link "이미지" [ref=f2e99] [cursor=pointer]:
+              - /url: /search?sca_esv=7c1e84b1a6318645&sxsrf=APpeQntPiUkrNR0BtanZA9WvmiYvVyPEsg:1792115082169&udm=2&fbs=ABfTbFUgt-aXEFkBhPo84x72c1XoLHFs6TcISYM3FayWAWWA70Xm5U6RGqPr3iDDBI1ZGXVB2hVvUMU_HPv4yLl4NRraeZ6sLn-vAfHq77GQaQofPYB5k5_nygU_rR__HpXYgBzJKugbNW8wqP8DsR5irNFLVn18Ga3NfmkAuxH3--Qeq4M09UHKslvFE-LLj0zmUdEJcYZW0r3b8POwpPZIY9FUD3NlRQ&q=%EB%B0%94%EB%9E%8C%EB%96%A1+%EC%A1%B0%EB%A6%AC%EB%B2%95&sa=X&ved=2ahUKEwjExvj2tL2XAxXjsFYBHYCNI2oQtKgLegQIGhAB
+          - listitem [ref=f2e102]:
+            - link "짧은 동영상" [ref=f2e103] [cursor=pointer]:
+              - /url: /search?sca_esv=7c1e84b1a6318645&sxsrf=APpeQntPiUkrNR0BtanZA9WvmiYvVyPEsg:1792115082169&udm=39&fbs=ABfTbFUgt-aXEFkBhPo84x72c1XoLHFs6TcISYM3FayWAWWA70Xm5U6RGqPr3iDDBI1ZGXVB2hVvUMU_HPv4yLl4NRraeZ6sLn-vAfHq77GQaQofPYB5k5_nygU_rR__HpXYgBzJKugbNW8wqP8DsR5irNFLVn18Ga3NfmkAuxH3--Qeq4M09UHKslvFE-LLj0zmUdEJcYZW0r3b8POwpPZIY9FUD3NlRQ&q=%EB%B0%94%EB%9E%8C%EB%96%A1+%EC%A1%B0%EB%A6%AC%EB%B2%95&sa=X&ved=2ahUKEwjExvj2tL2XAxXjsFYBHYCNI2oQs6gLegQIGRAB
+          - listitem [ref=f2e106]:
+            - link "동영상" [ref=f2e107] [cursor=pointer]:
+              - /url: /search?sca_esv=7c1e84b1a6318645&sxsrf=APpeQntPiUkrNR0BtanZA9WvmiYvVyPEsg:1792115082169&udm=vids&fbs=ABfTbFUgt-aXEFkBhPo84x72c1XoLHFs6TcISYM3FayWAWWA70Xm5U6RGqPr3iDDBI1ZGXVB2hVvUMU_HPv4yLl4NRraeZ6sLn-vAfHq77GQaQofPYB5k5_nygU_rR__HpXYgBzJKugbNW8wqP8DsR5irNFLVn18Ga3NfmkAuxH3--Qeq4M09UHKslvFE-LLj0zmUdEJcYZW0r3b8POwpPZIY9FUD3NlRQ&q=%EB%B0%94%EB%9E%8C%EB%96%A1+%EC%A1%B0%EB%A6%AC%EB%B2%95&sa=X&ved=2ahUKEwjExvj2tL2XAxXjsFYBHYCNI2oQtKgLegQIGBAB
+          - listitem [ref=f2e110]:
+            - link "쇼핑" [ref=f2e111] [cursor=pointer]:
+              - /url: /search?sca_esv=7c1e84b1a6318645&sxsrf=APpeQntPiUkrNR0BtanZA9WvmiYvVyPEsg:1792115082169&udm=28&fbs=ABfTbFUgt-aXEFkBhPo84x72c1XoLHFs6TcISYM3FayWAWWA70Xm5U6RGqPr3iDDBI1ZGXVB2hVvUMU_HPv4yLl4NRraeZ6sLn-vAfHq77GQaQofPYB5k5_nygU_rR__HpXYgBzJKugbNW8wqP8DsR5irNFLVn18Ga3NfmkAuxH3--Qeq4M09UHKslvFE-LLj0zmUdEJcYZW0r3b8POwpPZIY9FUD3NlRQ&q=%EB%B0%94%EB%9E%8C%EB%96%A1+%EC%A1%B0%EB%A6%AC%EB%B2%95&ved=1t:220175&ictx=111
+          - listitem [ref=f2e114]:
+            - link "뉴스" [ref=f2e115] [cursor=pointer]:
+              - /url: /search?sca_esv=7c1e84b1a6318645&sxsrf=APpeQntPiUkrNR0BtanZA9WvmiYvVyPEsg:1792115082169&q=%EB%B0%94%EB%9E%8C%EB%96%A1+%EC%A1%B0%EB%A6%AC%EB%B2%95&tbm=nws&source=lnms&fbs=ABfTbFUgt-aXEFkBhPo84x72c1XoLHFs6TcISYM3FayWAWWA70Xm5U6RGqPr3iDDBI1ZGXVB2hVvUMU_HPv4yLl4NRraeZ6sLn-vAfHq77GQaQofPYB5k5_nygU_rR__HpXYgBzJKugbNW8wqP8DsR5irNFLVn18Ga3NfmkAuxH3--Qeq4M09UHKslvFE-LLj0zmUdEJcYZW0r3b8POwpPZIY9FUD3NlRQ&sa=X&ved=2ahUKEwjExvj2tL2XAxXjsFYBHYCNI2oQ0pQJegQIFhAB
+          - listitem [ref=f2e118]:
+            - button [ref=f2e119] [cursor=pointer]:
+              - generic "필터 더보기" [ref=f2e120]: 더보기
+        - button "도구" [ref=f2e127] [cursor=pointer]
+    - heading "검색결과" [level=1] [ref=f2e134]
+    - main [ref=f2e140]:
+      - generic [ref=f2e144]:
+        - generic [ref=f2e147]:
+          - heading "웹 검색결과" [level=2] [ref=f2e148]
+          - generic [ref=f2e149]:
+            - generic [ref=f2e152]:
+              - link "집에서 떡만들기, 개피떡 바람떡 만드는법 Naver Blog https://blog.naver.com › young07080" [ref=f2e154] [cursor=pointer]:
+                - /url: /goto?url=CAESaQHrOzAVjf6AxOO6vjRnCU6297bWlm_pP0pu-mjHQV82LkshlPPJdYeLMJsH7POxa5Yk94LAMKdyhvWfLgLpy9n-Pay36BLnCnkuotq0U7ub6cB09FlNz0mUDW0Uzs20JRdZCxwiVxynug
+                - heading "집에서 떡만들기, 개피떡 바람떡 만드는법" [level=3] [ref=f2e155]
+                - generic [ref=f2e164]:
+                  - generic [ref=f2e165]: Naver Blog
+                  - generic [ref=f2e167]: https://blog.naver.com › young07080
+              - button "검색결과에 관한 정보" [ref=f2e173] [cursor=pointer]
+            - generic [ref=f2e179]:
+              - generic [ref=f2e180]: 2017. 11. 9. —
+              - generic [ref=f2e181]:
+                - text: 묻혀가면서 해야 마르지 않아요. 바람떡의 마무리는 꼭 참기름!
+                - emphasis [ref=f2e182]: 참기름과 오일을 2:1로 섞어서 장갑끼고 만져주면서 바르시면 되요
+                - text: .
+            - link [aria-hidden] [ref=f2e185] [cursor=pointer]:
+              - /url: /goto?url=CAESaQHrOzAVtW26u0AltQQ5QcEvu4c_CLXY8NFI9nHOjcLooFAl9HphjuvaTSVjS3wTQjrhn8J_3qU9nQpcZhGelqlsrJj9bKxf4xMwdFI8eNrImcZNpmF2DYrSYsJvFXgPJBk6oQPK__Kiiw
+        - generic [ref=f2e191]:
+          - generic [ref=f2e193]:
+            - heading "동영상" [level=2] [ref=f2e194]
+            - button "검색결과에 관한 정보" [ref=f2e199] [cursor=pointer]
+          - generic [ref=f2e205]:
+            - generic [ref=f2e211]:
+              - generic [ref=f2e212]:
+                - link [ref=f2e214] [cursor=pointer]:
+                  - /url: /goto?url=CAESZgHrOzAVsWNhDHxhmWrPFmtenBzlFAbyzWTKd_ULB2ZE2m7o_f4l4JvqYx_3GLOYKWS5Nyi8WGx72mYmOMAdyx6m_Fw5oEwvMHmiLhXzzM75mZm09oLOVhSkY_eEyvzYp0r4pDBN_A
+                  - heading "하루종일 말랑말랑 쫄깃한 바람떡 만들기 YouTube 찔레Jjilae 2023. 5. 28." [level=3] [ref=f2e215]:
+                    - generic [ref=f2e216]: 하루종일 말랑말랑 쫄깃한 바람떡 만들기
+                    - generic [ref=f2e220]:
+                      - generic [ref=f2e221]:
+                        - text: YouTube
+                        - generic [ref=f2e222]: · 찔레Jjilae
+                      - generic [ref=f2e223]: 2023. 5. 28.
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic [aria-hidden]:
+                          - text: YouTube
+                          - generic: · 찔레Jjilae
+                    - button "검색결과에 관한 정보" [ref=f2e227] [cursor=pointer]
+              - button "찔레Jjilae님이 YouTube에 게시한 하루종일 말랑말랑 쫄깃한 바람떡 만들기. Google에서 재생. 4:32" [ref=f2e232] [cursor=pointer]:
+                - generic [ref=f2e239]: 4:32
+            - generic [ref=f2e251]:
+              - generic [ref=f2e252]:
+                - link [ref=f2e254] [cursor=pointer]:
+                  - /url: /goto?url=CAESZgHrOzAVTAxMI8_Fy8Bm9681XeZj8Oxx-M0CmoNj-bTAjWRNb1M_yB3FaUE1HYj8v-BZxgBJSRE_Gk0VsJOFbHWOVb5SD9EEROcdCrJ-jY2HNMmsEcGHQ0afblU_Y-nR3sjaTI4R9Q
+                  - heading "바람떡 만들기ㅣ쫀득쫀득 달콤한 바람떡 만들기ㅣ천연색소 사용 ... YouTube 상아의홈 2022. 12. 28." [level=3] [ref=f2e255]:
+                    - generic [ref=f2e256]: 바람떡 만들기ㅣ쫀득쫀득 달콤한 바람떡 만들기ㅣ천연색소 사용 ...
+                    - generic [ref=f2e260]:
+                      - generic [ref=f2e261]:
+                        - text: YouTube
+                        - generic [ref=f2e262]: · 상아의홈
+                      - generic [ref=f2e263]: 2022. 12. 28.
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic [aria-hidden]:
+                          - text: YouTube
+                          - generic: · 상아의홈
+                    - button "검색결과에 관한 정보" [ref=f2e267] [cursor=pointer]
+              - button "상아의홈님이 YouTube에 게시한 바람떡 만들기ㅣ쫀득쫀득 달콤한 바람떡 만들기ㅣ천연색소 사용 .... Google에서 재생. 4:14" [ref=f2e272] [cursor=pointer]:
+                - generic [ref=f2e282]: 4:14
+            - generic [ref=f2e294]:
+              - generic [ref=f2e295]:
+                - link [ref=f2e297] [cursor=pointer]:
+                  - /url: /goto?url=CAESZgHrOzAVvfWf_7A3e3WkJsE7KBXdXrIUv9dh8_t0yvrohFl1W-NO39dekDt9F1yp8fL7zXGl56ndxoOV-2I1Hph6yKrK46AOxKUuxj-XdetWcphHM-Ecff-gOm87j_hRrY5lg_hGNw
+                  - heading "바람떡 만들기 baramddeok 모락모락 YouTube 쑥떡쑥떡Ssuk ddeok 2018. 10. 22." [level=3] [ref=f2e298]:
+                    - generic [ref=f2e299]: 바람떡 만들기 baramddeok 모락모락
+                    - generic [ref=f2e303]:
+                      - generic [ref=f2e304]:
+                        - text: YouTube
+                        - generic [ref=f2e305]: · 쑥떡쑥떡Ssuk ddeok
+                      - generic [ref=f2e306]: 2018. 10. 22.
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic [aria-hidden]:
+                          - text: YouTube
+                          - generic: · 쑥떡쑥떡Ssuk ddeok
+                    - button "검색결과에 관한 정보" [ref=f2e310] [cursor=pointer]
+              - button "쑥떡쑥떡Ssuk ddeok님이 YouTube에 게시한 바람떡 만들기 baramddeok 모락모락. Google에서 재생. 4:25" [ref=f2e315] [cursor=pointer]:
+                - generic [ref=f2e325]: 4:25
+            - generic [ref=f2e337]:
+              - generic [ref=f2e338]:
+                - link [ref=f2e340] [cursor=pointer]:
+                  - /url: /goto?url=CAESZgHrOzAV6F3evR-bV2TceF9Bt2tj7aenODiMX3_FMIZVx1yMFubwTWP_OoR3veKlZGhdgfD3SU4tHVrAoCs6bjW3IlsCmmQcwzaJOItkAdHpqtGSsodWAUbMLLQ-yJd1n_JuRdrCBA
+                  - heading "방아간NO 건식레시피 바람떡 만들기 baramddeok 모락모락 YouTube 쑥떡쑥떡Ssuk ddeok 2018. 12. 3." [level=3] [ref=f2e341]:
+                    - generic [ref=f2e342]: 방아간NO 건식레시피 바람떡 만들기 baramddeok 모락모락
+                    - generic [ref=f2e346]:
+                      - generic [ref=f2e347]:
+                        - text: YouTube
+                        - generic [ref=f2e348]: · 쑥떡쑥떡Ssuk ddeok
+                      - generic [ref=f2e349]: 2018. 12. 3.
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic [aria-hidden]:
+                          - text: YouTube
+                          - generic: · 쑥떡쑥떡Ssuk ddeok
+                    - button "검색결과에 관한 정보" [ref=f2e353] [cursor=pointer]
+              - button "쑥떡쑥떡Ssuk ddeok님이 YouTube에 게시한 방아간NO 건식레시피 바람떡 만들기 baramddeok 모락모락. Google에서 재생. 3:30" [ref=f2e358] [cursor=pointer]:
+                - generic [ref=f2e368]: 3:30
+          - link "모든 동영상 보기" [ref=f2e376] [cursor=pointer]:
+            - /url: /search?sca_esv=7c1e84b1a6318645&udm=vids&sxsrf=APpeQntPiUkrNR0BtanZA9WvmiYvVyPEsg:1792115082169&q=%EB%B0%94%EB%9E%8C%EB%96%A1+%EC%A1%B0%EB%A6%AC%EB%B2%95&sa=X&ved=2ahUKEwjExvj2tL2XAxXjsFYBHYCNI2oQ8ccDKAJ6BAgfEAU
+            - separator [aria-hidden] [ref=f2e377]
+            - generic [ref=f2e378]: 모두 보기
+        - generic [ref=f2e385]:
+          - heading "웹 검색결과" [level=2] [ref=f2e386]
+          - generic [ref=f2e387]:
+            - generic [ref=f2e390]:
+              - link "바람떡 만들기 만개의레시피 https://www.10000recipe.com › recipe" [ref=f2e392] [cursor=pointer]:
+                - /url: /goto?url=CAESpgEB6zswFbk1Gi04KGBTjtZyuUCY7gDBKjwGg6izLJg42_7DIddr0CQ8hu7oZf-mQls271HDh-cNvqiExtaMMPiD1LkNi2eeHrbKs7j6T46BVKTVFMuWE-NkJzsEBqwO1VrZV1cA9drc1TgboaIiNLrWmW-KvFIW1zxgISx2WiuFXM2rg6c0qrzpwbMqatACLEv3vC9QUR9ctQfuGJD6i4XxIb5zUVlc
+                - heading "바람떡 만들기" [level=3] [ref=f2e393]
+                - generic [ref=f2e399]:
+                  - generic [ref=f2e400]: 만개의레시피
+                  - generic [ref=f2e402]: https://www.10000recipe.com › recipe
+              - button "검색결과에 관한 정보" [ref=f2e408] [cursor=pointer]
+            - generic [ref=f2e413]: 멥쌀가루(습식). 2컵 구매 · 물. 2큰술 구매 · 소금. 2꼬집 구매 · 백년초가루. 1큰술 구매 · 앙금. 60g 구매. 떡 찐 후 바르는 기름계량법 ...
+            - link [aria-hidden] [ref=f2e417] [cursor=pointer]:
+              - /url: /goto?url=CAESpgEB6zswFS6hB08P3w-ODPe1TvpP6OhnVDLBS_YAOlx8SuuDOdAvLOhy64_JkFKALRD8VNThyaazmeNSz0VEVYNaDOEa7ryvSJnD4_v7WKLVpvbrk-8KsEiCKxwdiaKftq0SMchESytlBaKOHkmjYY_RAkuM3ML7fXtSZuSOtss_5AYQy4AQWK0PuBVqcdHofYr_ZsfZo425o0Z-Efq0aHH5WWYDkfKf
+            - generic [ref=f2e420]: 1시간
+        - generic [ref=f2e427]:
+          - heading "레시피" [level=3] [ref=f2e429]
+          - generic [ref=f2e431]:
+            - generic [ref=f2e432]:
+              - generic [ref=f2e436]:
+                - link "바람떡 만들기/ 바람떡 집에서만들기 만개의레시피 리뷰 없음" [ref=f2e438] [cursor=pointer]:
+                  - /url: /goto?url=CAESZQHrOzAVTaolAqz-oZ9SygIUiOL4Tdx7UNliKlz5ir95zKLgQMuTnhpoV7gsXC9XuKEjeINg-5TO6AZWJC-ZpiVcdmczEGtu5r79QSdLO76xKI8xg1MAs_0mwhEEWmakynrfDMP0
+                  - generic [ref=f2e444]:
+                    - heading "바람떡 만들기/ 바람떡 집에서만들기" [level=3] [ref=f2e445]
+                    - generic [ref=f2e446]: 만개의레시피
+                    - generic [ref=f2e448]: 리뷰 없음
+                - button "저장 목록에 바람떡 만들기/ 바람떡 집에서만들기 추가" [ref=f2e453]:
+                  - generic [ref=f2e454] [cursor=pointer]
+              - generic [ref=f2e462]:
+                - link "바람떡 만들기 만개의레시피 리뷰 없음 1시간" [ref=f2e464] [cursor=pointer]:
+                  - /url: /goto?url=CAESZQHrOzAVgxG4Xr-q6gSOcUcA0G6Q0ayQ62wQ20r11ImnhXFklodDSEEWcpLut3oF3zdUElS2haVfqErkxky6129kZGs6F3lSwoEgrYdGM4mg5xAD_ok0tGq0TMrDfBFP0tzwvBhG
+                  - generic [ref=f2e470]:
+                    - heading "바람떡 만들기" [level=3] [ref=f2e471]
+                    - generic [ref=f2e472]: 만개의레시피
+                    - generic [ref=f2e474]: 리뷰 없음
+                    - generic [ref=f2e477]: 1시간
+                - button "저장 목록에 바람떡 만들기 추가" [ref=f2e480]:
+                  - generic [ref=f2e481] [cursor=pointer]
+              - generic [ref=f2e489]:
+                - link "바람떡 만들기, 송편보다 3배 쉬운 초간단 레시피(유래부터 칼로리까지) - 요리픽 요리픽 별 5개 중 4.8개 사용자 리뷰 221개 30분" [ref=f2e491] [cursor=pointer]:
+                  - /url: /goto?url=CAESYQHrOzAVd3XLNjCk3orzxt34kye6MiB-grRUhzol0rlD7sKVVJEtN3_9fzuALohlYb01PT9sk3Rr24NscT4UVHky8G1spMvMgklM6kqoMFRwahOLTSwmF50RKgsCxKuEhSQ
+                  - generic [ref=f2e497]:
+                    - heading "바람떡 만들기, 송편보다 3배 쉬운 초간단 레시피(유래부터 칼로리까지) - 요리픽" [level=3] [ref=f2e498]
+                    - generic [ref=f2e499]: 요리픽
+                    - img "별 5개 중 4.8개 사용자 리뷰 221개" [ref=f2e503]: 4.8(221)
+                    - generic [ref=f2e507]: 30분
+                - button "저장 목록에 바람떡 만들기, 송편보다 3배 쉬운 초간단 레시피(유래부터 칼로리까지) - 요리픽 추가" [ref=f2e510]:
+                  - generic [ref=f2e511] [cursor=pointer]
+            - button "더보기" [ref=f2e518] [cursor=pointer]:
+              - separator [aria-hidden] [ref=f2e519]
+        - generic [ref=f2e529]:
+          - heading "웹 검색결과" [level=2] [ref=f2e530]
+          - generic [ref=f2e531]:
+            - generic [ref=f2e534]:
+              - link "바람떡(개피떡) 레시피 전국상용 향토음식 조리법 lampcook https://lampcook.com › food › food_local_view" [ref=f2e536] [cursor=pointer]:
+                - /url: /goto?url=CAESdAHrOzAVizWtZeYOKNXYIWg0cU_xUbQtj7co1K0-GoWs54VuwKBbApX8Vqj3d6x92PUIcNqXV6ZY6l7qAgzpV4MhgznVmBclWjLIZHNZbjLtvdc3A4UkvzY39tQgc8mxHHQqW9vx_CKfVmCta3gx2SOlSZ63
+                - heading "바람떡(개피떡) 레시피 전국상용 향토음식 조리법" [level=3] [ref=f2e537]
+                - generic [ref=f2e543]:
+                  - generic [ref=f2e544]: lampcook
+                  - generic [ref=f2e546]: https://lampcook.com › food › food_local_view
+              - button "검색결과에 관한 정보" [ref=f2e552] [cursor=pointer]
+            - generic [ref=f2e557]: 1. 멥쌀을 3~4회 깨끗이 씻어 일어서 물에 12시간 정도 담갔다가 건진 다음 소금을 넣고 빻아 체에 내려서 고운 가루를 만든다. 수분이 부족하면 물을 뿌려 손으로 고루 ...
+            - link [aria-hidden] [ref=f2e561] [cursor=pointer]:
+              - /url: /goto?url=CAESdAHrOzAVMe_EZRuEWZbtvhpRvuj3B-UWC6q1WQfTd3xlhiHgWMldW1JkORqAlvq9b9CQDd7dJOCgTRHEDOfuHWcWqWb2yrwR-vrpQfL5kSIRPEWUYkYxwLmmVJ-pgAVY14txW8qGMl2iNs_cpwzdDvpa6uC_
+        - generic [ref=f2e567]:
+          - generic [ref=f2e570]:
+            - link "한식 디저트 만들기 개피떡 ( 바람떡 ) 만들기 쌈지 떡 만들기 Naver Blog https://blog.naver.com › sucrereine" [ref=f2e572] [cursor=pointer]:
+              - /url: /goto?url=CAESaQHrOzAVhQGTMkIArgzHkKciABIdolMfycSPz5gpKI13zYxFrYLVfp0T_s9dEQNsMzwfInuCuP5uUBKe5LmeXn5W4dbnBU2n-J0uAjHmHVy65EQUB0IgK5A6xTo5d7m3MYps_6OJNGw96g
+              - heading "한식 디저트 만들기 개피떡 ( 바람떡 ) 만들기 쌈지 떡 만들기" [level=3] [ref=f2e573]
+              - generic [ref=f2e582]:
+                - generic [ref=f2e583]: Naver Blog
+                - generic [ref=f2e585]: https://blog.naver.com › sucrereine
+            - button "검색결과에 관한 정보" [ref=f2e591] [cursor=pointer]
+          - generic [ref=f2e597]:
+            - generic [ref=f2e598]: 2023. 10. 7. —
+            - text: 카테고리 이동 빼꼼 베이킹 · 반죽을 밀어 펴서 살짝씩 겹쳐주세요. · 한 가지 색으로 하실 때 얇게 바로 밀어 펴주시면 됩니다 · 칼 이용해서 가로 세로 ...
+          - link [aria-hidden] [ref=f2e601] [cursor=pointer]:
+            - /url: /goto?url=CAESaQHrOzAVC1TycxIGcrS6BRapPc7OUiyfaQ2hzX_hMLFL4516H-jIcT7wXcdhqRKO1NkVZl8cBzYGzl7qvv8LvJer5I_YGERWrSCIxY-sbkOxjSh8cblXHK8VEr7DmMhE9EawlG0GvfyTRg
+        - generic [ref=f2e607]:
+          - generic [ref=f2e610]:
+            - link "바람떡 레시피 햇쌀마루 https://haessalmaroo.co.kr › article › 레시피" [ref=f2e612] [cursor=pointer]:
+              - /url: /goto?url=CAESgQEB6zswFWxgdX7lOlTF6kjfjX7gSJUz2evjGawVZjDGKdyI9Hr6qX6GvUPmnrTPnf864y5MAg163MPvR-OnyU9tLQ0iBrt-FakVX5qAg8ZIRgvZtH-cWlPP4Yb9m-Kd78cMuhbEwNt4zdr4TgiaIzeK8WCtSsj8jRFT0hTJPBGBrJs
+              - heading "바람떡 레시피" [level=3] [ref=f2e613]
+              - generic [ref=f2e619]:
+                - generic [ref=f2e620]: 햇쌀마루
+                - generic [ref=f2e622]: https://haessalmaroo.co.kr › article › 레시피
+            - button "검색결과에 관한 정보" [ref=f2e628] [cursor=pointer]
+          - generic [ref=f2e635]:
+            - text: 속편 ·
+            - emphasis [ref=f2e636]: 1. 분량의 백옥앙금, 소금, 물을 잘 혼합한다
+            - text: . · 2. 가루멥쌀에 (1)을 잘 비벼 섞은 후, 롤밀 10시 방향으로 한번 내린다. · 3. 시루에 안쳐 10분간 찐다. · 4. (3) ...
+          - link [aria-hidden] [ref=f2e639] [cursor=pointer]:
+            - /url: /goto?url=CAESgQEB6zswFfBbhnfct3S-VI0eLamXeXAuLlFeFNrmRmWGGS6rpmx6WB-L7Tkh1bcLHgn53PEOeRHKzyY9ejTZv8KgmK4MLPs91EZ7br2_mPrF9orPFb6AJYA-saXQV5fFC5M39Jg86e4aNuVrv_ZwcnhF0cEW5SIrfE3IFyS-9uARIVU
+        - generic [ref=f2e646]:
+          - heading "관련 질문" [level=2] [ref=f2e648]
+          - generic [ref=f2e649]:
+            - button "바람떡을 만드는 데 필요한 재료는 무엇인가요?" [ref=f2e655] [cursor=pointer]
+            - button "바람떡과 송편의 차이점은 무엇인가요?" [ref=f2e669] [cursor=pointer]
+            - button "바람떡은 어느 지역 사투리인가요?" [ref=f2e683] [cursor=pointer]
+            - button "굳지 않는 떡을 만드는 방법은 무엇인가요?" [ref=f2e697] [cursor=pointer]
+        - generic [ref=f2e708]:
+          - heading "이미지" [level=2] [ref=f2e712]
+          - generic [ref=f2e716]:
+            - generic [ref=f2e720] [cursor=pointer]:
+              - link "바람떡 만들기/ 바람떡 집에서만들기 만개의레시피" [ref=f2e721]:
+                - /url: /goto?url=CAESpgEB6zswFRP9FuYb32UpsKNGn_IADRyJ5OkChxir5m6PNA2WaZuUvfDRTelObze1ezJO2PQK2BFjmFP4FRSaXYsUwO6AZz1R03lWw9Z5Mke4IkykHQSZmy65Q7_zEEtA-ZjLgEqE-S45XKib6_6gFQ4LxwkJBdYSA35S71QwH4_z-ETpMSByxoHkuYZRZe39K4KPNKGLAh7CJ9t6zvuUBWnb3rxfgqVl
+              - button [ref=f2e723]:
+                - img "바람떡 만들기/ 바람떡 집에서만들기" [ref=f2e725]
+              - generic [ref=f2e727]:
+                - generic [ref=f2e729]: 바람떡 만들기/ 바람떡 집에서만들기
+                - generic [ref=f2e730]:
+                  - generic [ref=f2e732]: 만개의레시피
+                  - button "검색결과에 관한 정보" [ref=f2e742]
+            - generic [ref=f2e750] [cursor=pointer]:
+              - link "바람떡 만들기ㅣ쫀득쫀득 달콤한 바람떡 만들기ㅣ천연색소 사용 전통떡ㅣ개피떡 YouTube" [ref=f2e751]:
+                - /url: /goto?url=CAESZgHrOzAVTAxMI8_Fy8Bm9681XeZj8Oxx-M0CmoNj-bTAjWRNb1M_yB3FaUE1HYj8v-BZxgBJSRE_Gk0VsJOFbHWOVb5SD9EEROcdCrJ-jY2HNMmsEcGHQ0afblU_Y-nR3sjaTI4R9Q
+              - button [ref=f2e753]:
+                - img "바람떡 만들기ㅣ쫀득쫀득 달콤한 바람떡 만들기ㅣ천연색소 사용 전통떡ㅣ개피떡" [ref=f2e755]
+              - generic [ref=f2e757]:
+                - generic [ref=f2e759]: 바람떡 만들기ㅣ쫀득쫀득 달콤한 바람떡 만들기ㅣ천연색소 사용 전통떡ㅣ개피떡
+                - generic [ref=f2e760]:
+                  - generic [ref=f2e762]: YouTube
+                  - button "검색결과에 관한 정보" [ref=f2e772]
+            - generic [ref=f2e780] [cursor=pointer]:
+              - 'link "완벽한 바람떡 만들기: 필수 레시피 공개! TikTok" [ref=f2e781]':
+                - /url: /goto?url=CAESewHrOzAVDZifLgr6jDbRfmWM87FlE5jUlY_uIhgH3XPVN-2Ao_g6FQBxzcRpABuPf5v4YfiMBkrwafx6j0q1UoQ9_vaeu7tG2hkMcIfArLWoXUiM0ZF2v8_zUphbzmQCK0J6VYuR9W2a0QytFT6o3HCl-EfugQCsfZUFew
+              - button [ref=f2e783]:
+                - 'img "완벽한 바람떡 만들기: 필수 레시피 공개!" [ref=f2e785]'
+              - generic [ref=f2e787]:
+                - generic [ref=f2e789]: "완벽한 바람떡 만들기: 필수 레시피 공개!"
+                - generic [ref=f2e790]:
+                  - generic [ref=f2e792]: TikTok
+                  - button "검색결과에 관한 정보" [ref=f2e802]
+          - button "이미지 더보기" [ref=f2e808] [cursor=pointer]:
+            - separator [aria-hidden] [ref=f2e809]
+        - generic [ref=f2e821]:
+          - generic [ref=f2e824]:
+            - link "바람떡 떡을 좋하시는분을 위한 집에서 만드는쉬운떡 /건식 ... YouTube · SANGEOIMO 조회수 12.2만회 이상 · 6년 전" [ref=f2e826] [cursor=pointer]:
+              - /url: /goto?url=CAESZgHrOzAVcuIO2-ba6Y9JfhWte-6Omo1tNDzaB4vfUp9tuX-2uJGJyFcn3GxqZreDIqHV01dgGDLyDW505UHh-SceazpxnFgw-hTEFFjk_jKMEF5IzBFRsvUIcqRt3xsO8JlNVBzwbQ
+              - heading "바람떡 떡을 좋하시는분을 위한 집에서 만드는쉬운떡 /건식 ..." [level=3] [ref=f2e827]
+              - generic [ref=f2e833]:
+                - generic [ref=f2e834]: YouTube · SANGEOIMO
+                - generic [ref=f2e836]: 조회수 12.2만회 이상 · 6년 전
+            - button "검색결과에 관한 정보" [ref=f2e842] [cursor=pointer]
+          - generic [ref=f2e847]:
+            - button "상어이모님이 YouTube에 게시한 바람떡 떡을 좋하시는분을 위한 집에서 만드는쉬운떡 /건식 .... Google에서 재생. 7:14" [ref=f2e848] [cursor=pointer]:
+              - generic [ref=f2e849]: 7:14
+            - generic [ref=f2e865]: 직접만들어먹는 바람떡 (*0:30초에 제가 말을 100g당50ml라고 하면서 물을 350ml넣었어요 저의 실수입니다 물 350ml가 맞습니다 100g당 50은 백설기 ...
+        - generic [ref=f2e870]:
+          - generic [ref=f2e873]:
+            - link "바람떡 만들기/ 바람떡 집에서만들기 만개의레시피 https://www.10000recipe.com › recipe" [ref=f2e875] [cursor=pointer]:
+              - /url: /goto?url=CAESpgEB6zswFfpzq-zL6rZsnCb6A9aMKeB4j3KxV9iU4V2sCa3ThDWWXZ3TAJZKhQddYbZoNjRsG94itG08ETn8WWW-dBWGYGfr4Ts6sw7vjVXjZmb6O8Z18B7driuHkT-BxZq8-uDc89-cLRvu68q5to30gMsZzjao_pZODL77WgJchxj4GPYmehjqOfezJSDIBWqWY1YVsEdNQKfjdEWL8Oa5UhJt6fyo
+              - heading "바람떡 만들기/ 바람떡 집에서만들기" [level=3] [ref=f2e876]
+              - generic [ref=f2e882]:
+                - generic [ref=f2e883]: 만개의레시피
+                - generic [ref=f2e885]: https://www.10000recipe.com › recipe
+            - button "검색결과에 관한 정보" [ref=f2e891] [cursor=pointer]
+          - generic [ref=f2e896]: 습식 쌀가루. 300g 구매 · 물. 90g 구매 · 앙금바둑알사이즈. 40~50개 구매. 조색용가루계량법안내. 단호박가루. 2t 구매. 쑥가루. 1t 구매. 흥국쌀가루.
+          - link [aria-hidden] [ref=f2e900] [cursor=pointer]:
+            - /url: /goto?url=CAESpgEB6zswFVJjJjuLn0gv9WvDar10UZ2qnDVZmyuDAp7DDGB9gLW29T3OKVE6IJtg3FbEXhpBi0KHtPtP-ZdGGx49jL_5gk5OnMIQzR-fRsSvuXG_KKh2HFXkSmo0wwJ0cSa3hprJuIC4WQNVRpyuGEY9GEqaGxeBXhH-LlVHe9JqJ3YqUjnzseYvrwwbn1ZzIjzwxP70vXlS_Wpk_G35aT1jYi17iFRf
+      - generic [ref=f2e904]:
+        - generic [ref=f2e909]:
+          - heading "관련 검색어" [level=2] [ref=f2e911]
+          - generic [ref=f2e913]:
+            - generic [ref=f2e914]:
+              - link "바람떡 백앙금" [ref=f2e918] [cursor=pointer]:
+                - /url: /search?sca_esv=7c1e84b1a6318645&sxsrf=APpeQntPiUkrNR0BtanZA9WvmiYvVyPEsg:1792115082169&q=%EB%B0%94%EB%9E%8C%EB%96%A1+%EB%B0%B1%EC%95%99%EA%B8%88&sa=X&ved=2ahUKEwjExvj2tL2XAxXjsFYBHYCNI2oQ1QJ6BAgtEAE
+              - link "개피떡 바람떡" [ref=f2e932] [cursor=pointer]:
+                - /url: /search?sca_esv=7c1e84b1a6318645&sxsrf=APpeQntPiUkrNR0BtanZA9WvmiYvVyPEsg:1792115082169&q=%EA%B0%9C%ED%94%BC%EB%96%A1+%EB%B0%94%EB%9E%8C%EB%96%A1&sa=X&ved=2ahUKEwjExvj2tL2XAxXjsFYBHYCNI2oQ1QJ6BAg9EAE
+              - link "바람떡 앙금" [ref=f2e946] [cursor=pointer]:
+                - /url: /search?sca_esv=7c1e84b1a6318645&sxsrf=APpeQntPiUkrNR0BtanZA9WvmiYvVyPEsg:1792115082169&q=%EB%B0%94%EB%9E%8C%EB%96%A1+%EC%95%99%EA%B8%88&sa=X&ved=2ahUKEwjExvj2tL2XAxXjsFYBHYCNI2oQ1QJ6BAg6EAE
+              - link "바람떡 유래" [ref=f2e960] [cursor=pointer]:
+                - /url: /search?sca_esv=7c1e84b1a6318645&sxsrf=APpeQntPiUkrNR0BtanZA9WvmiYvVyPEsg:1792115082169&q=%EB%B0%94%EB%9E%8C%EB%96%A1+%EC%9C%A0%EB%9E%98&sa=X&ved=2ahUKEwjExvj2tL2XAxXjsFYBHYCNI2oQ1QJ6BAg3EAE
+            - generic [ref=f2e971]:
+              - link "바람떡 틀" [ref=f2e975] [cursor=pointer]:
+                - /url: /search?sca_esv=7c1e84b1a6318645&sxsrf=APpeQntPiUkrNR0BtanZA9WvmiYvVyPEsg:1792115082169&q=%EB%B0%94%EB%9E%8C%EB%96%A1+%ED%8B%80&sa=X&ved=2ahUKEwjExvj2tL2XAxXjsFYBHYCNI2oQ1QJ6BAg1EAE
+              - link "바람떡 칼로리" [ref=f2e989] [cursor=pointer]:
+                - /url: /search?sca_esv=7c1e84b1a6318645&sxsrf=APpeQntPiUkrNR0BtanZA9WvmiYvVyPEsg:1792115082169&q=%EB%B0%94%EB%9E%8C%EB%96%A1+%EC%B9%BC%EB%A1%9C%EB%A6%AC&sa=X&ved=2ahUKEwjExvj2tL2XAxXjsFYBHYCNI2oQ1QJ6BAg0EAE
+              - link "바람떡 발암" [ref=f2e1003] [cursor=pointer]:
+                - /url: /search?sca_esv=7c1e84b1a6318645&sxsrf=APpeQntPiUkrNR0BtanZA9WvmiYvVyPEsg:1792115082169&q=%EB%B0%94%EB%9E%8C%EB%96%A1+%EB%B0%9C%EC%95%94&sa=X&ved=2ahUKEwjExvj2tL2XAxXjsFYBHYCNI2oQ1QJ6BAgyEAE
+              - link "바람떡 뜻" [ref=f2e1017] [cursor=pointer]:
+                - /url: /search?sca_esv=7c1e84b1a6318645&sxsrf=APpeQntPiUkrNR0BtanZA9WvmiYvVyPEsg:1792115082169&q=%EB%B0%94%EB%9E%8C%EB%96%A1+%EB%9C%BB&sa=X&ved=2ahUKEwjExvj2tL2XAxXjsFYBHYCNI2oQ1QJ6BAgwEAE
+        - navigation [ref=f2e1028]:
+          - heading "페이지 탐색" [level=1] [ref=f2e1029]
+          - text: "1"
+          - link "Page 2" [ref=f2e1032] [cursor=pointer]:
+            - /url: /search?q=%EB%B0%94%EB%9E%8C%EB%96%A1+%EC%A1%B0%EB%A6%AC%EB%B2%95&sca_esv=7c1e84b1a6318645&sxsrf=APpeQntPiUkrNR0BtanZA9WvmiYvVyPEsg:1792115082169&ei=ioHRasTZCOPh2roPgJuO0QY&start=10&sa=N&sstk=AS6-VmILzG0d6m69GpUqR_hnYSr5gj2rD-NkxEaiDC9PDx66CzVOkzrORNk9oEJXjUK83m1LsJy8g4T92skxB52wZWBo77DDg0fNqA&ved=2ahUKEwjExvj2tL2XAxXjsFYBHYCNI2oQ8tMDegQIKRAE
+            - text: "2"
+          - link "Page 3" [ref=f2e1034] [cursor=pointer]:
+            - /url: /search?q=%EB%B0%94%EB%9E%8C%EB%96%A1+%EC%A1%B0%EB%A6%AC%EB%B2%95&sca_esv=7c1e84b1a6318645&sxsrf=APpeQntPiUkrNR0BtanZA9WvmiYvVyPEsg:1792115082169&ei=ioHRasTZCOPh2roPgJuO0QY&start=20&sa=N&sstk=AS6-VmILzG0d6m69GpUqR_hnYSr5gj2rD-NkxEaiDC9PDx66CzVOkzrORNk9oEJXjUK83m1LsJy8g4T92skxB52wZWBo77DDg0fNqA&ved=2ahUKEwjExvj2tL2XAxXjsFYBHYCNI2oQ8tMDegQIKRAG
+            - text: "3"
+          - link "Page 4" [ref=f2e1036] [cursor=pointer]:
+            - /url: /search?q=%EB%B0%94%EB%9E%8C%EB%96%A1+%EC%A1%B0%EB%A6%AC%EB%B2%95&sca_esv=7c1e84b1a6318645&sxsrf=APpeQntPiUkrNR0BtanZA9WvmiYvVyPEsg:1792115082169&ei=ioHRasTZCOPh2roPgJuO0QY&start=30&sa=N&sstk=AS6-VmILzG0d6m69GpUqR_hnYSr5gj2rD-NkxEaiDC9PDx66CzVOkzrORNk9oEJXjUK83m1LsJy8g4T92skxB52wZWBo77DDg0fNqA&ved=2ahUKEwjExvj2tL2XAxXjsFYBHYCNI2oQ8tMDegQIKRAI
+            - text: "4"
+          - link "Page 5" [ref=f2e1038] [cursor=pointer]:
+            - /url: /search?q=%EB%B0%94%EB%9E%8C%EB%96%A1+%EC%A1%B0%EB%A6%AC%EB%B2%95&sca_esv=7c1e84b1a6318645&sxsrf=APpeQntPiUkrNR0BtanZA9WvmiYvVyPEsg:1792115082169&ei=ioHRasTZCOPh2roPgJuO0QY&start=40&sa=N&sstk=AS6-VmILzG0d6m69GpUqR_hnYSr5gj2rD-NkxEaiDC9PDx66CzVOkzrORNk9oEJXjUK83m1LsJy8g4T92skxB52wZWBo77DDg0fNqA&ved=2ahUKEwjExvj2tL2XAxXjsFYBHYCNI2oQ8tMDegQIKRAK
+            - text: "5"
+          - link "Page 6" [ref=f2e1040] [cursor=pointer]:
+            - /url: /search?q=%EB%B0%94%EB%9E%8C%EB%96%A1+%EC%A1%B0%EB%A6%AC%EB%B2%95&sca_esv=7c1e84b1a6318645&sxsrf=APpeQntPiUkrNR0BtanZA9WvmiYvVyPEsg:1792115082169&ei=ioHRasTZCOPh2roPgJuO0QY&start=50&sa=N&sstk=AS6-VmILzG0d6m69GpUqR_hnYSr5gj2rD-NkxEaiDC9PDx66CzVOkzrORNk9oEJXjUK83m1LsJy8g4T92skxB52wZWBo77DDg0fNqA&ved=2ahUKEwjExvj2tL2XAxXjsFYBHYCNI2oQ8tMDegQIKRAM
+            - text: "6"
+          - link "Page 7" [ref=f2e1042] [cursor=pointer]:
+            - /url: /search?q=%EB%B0%94%EB%9E%8C%EB%96%A1+%EC%A1%B0%EB%A6%AC%EB%B2%95&sca_esv=7c1e84b1a6318645&sxsrf=APpeQntPiUkrNR0BtanZA9WvmiYvVyPEsg:1792115082169&ei=ioHRasTZCOPh2roPgJuO0QY&start=60&sa=N&sstk=AS6-VmILzG0d6m69GpUqR_hnYSr5gj2rD-NkxEaiDC9PDx66CzVOkzrORNk9oEJXjUK83m1LsJy8g4T92skxB52wZWBo77DDg0fNqA&ved=2ahUKEwjExvj2tL2XAxXjsFYBHYCNI2oQ8tMDegQIKRAO
+            - text: "7"
+          - link "Page 8" [ref=f2e1044] [cursor=pointer]:
+            - /url: /search?q=%EB%B0%94%EB%9E%8C%EB%96%A1+%EC%A1%B0%EB%A6%AC%EB%B2%95&sca_esv=7c1e84b1a6318645&sxsrf=APpeQntPiUkrNR0BtanZA9WvmiYvVyPEsg:1792115082169&ei=ioHRasTZCOPh2roPgJuO0QY&start=70&sa=N&sstk=AS6-VmILzG0d6m69GpUqR_hnYSr5gj2rD-NkxEaiDC9PDx66CzVOkzrORNk9oEJXjUK83m1LsJy8g4T92skxB52wZWBo77DDg0fNqA&ved=2ahUKEwjExvj2tL2XAxXjsFYBHYCNI2oQ8tMDegQIKRAQ
+            - text: "8"
+          - link "Page 9" [ref=f2e1046] [cursor=pointer]:
+            - /url: /search?q=%EB%B0%94%EB%9E%8C%EB%96%A1+%EC%A1%B0%EB%A6%AC%EB%B2%95&sca_esv=7c1e84b1a6318645&sxsrf=APpeQntPiUkrNR0BtanZA9WvmiYvVyPEsg:1792115082169&ei=ioHRasTZCOPh2roPgJuO0QY&start=80&sa=N&sstk=AS6-VmILzG0d6m69GpUqR_hnYSr5gj2rD-NkxEaiDC9PDx66CzVOkzrORNk9oEJXjUK83m1LsJy8g4T92skxB52wZWBo77DDg0fNqA&ved=2ahUKEwjExvj2tL2XAxXjsFYBHYCNI2oQ8tMDegQIKRAS
+            - text: "9"
+          - link "Page 10" [ref=f2e1048] [cursor=pointer]:
+            - /url: /search?q=%EB%B0%94%EB%9E%8C%EB%96%A1+%EC%A1%B0%EB%A6%AC%EB%B2%95&sca_esv=7c1e84b1a6318645&sxsrf=APpeQntPiUkrNR0BtanZA9WvmiYvVyPEsg:1792115082169&ei=ioHRasTZCOPh2roPgJuO0QY&start=90&sa=N&sstk=AS6-VmILzG0d6m69GpUqR_hnYSr5gj2rD-NkxEaiDC9PDx66CzVOkzrORNk9oEJXjUK83m1LsJy8g4T92skxB52wZWBo77DDg0fNqA&ved=2ahUKEwjExvj2tL2XAxXjsFYBHYCNI2oQ8tMDegQIKRAU
+            - text: "10"
+          - heading [level=2] [ref=f2e1050]:
+            - link "다음" [ref=f2e1051] [cursor=pointer]:
+              - /url: /search?q=%EB%B0%94%EB%9E%8C%EB%96%A1+%EC%A1%B0%EB%A6%AC%EB%B2%95&sca_esv=7c1e84b1a6318645&sxsrf=APpeQntPiUkrNR0BtanZA9WvmiYvVyPEsg:1792115082169&ei=ioHRasTZCOPh2roPgJuO0QY&start=10&sa=N&sstk=AS6-VmILzG0d6m69GpUqR_hnYSr5gj2rD-NkxEaiDC9PDx66CzVOkzrORNk9oEJXjUK83m1LsJy8g4T92skxB52wZWBo77DDg0fNqA&ved=2ahUKEwjExvj2tL2XAxXjsFYBHYCNI2oQ8NMDegQIKRAW
+      - navigation
+    - contentinfo [ref=f2e1054]:
+      - heading "바닥글 링크" [level=1] [ref=f2e1055]
+      - generic [ref=f2e1059]:
+        - generic [ref=f2e1061]:
+          - text: 대한민국
+          - generic [ref=f2e1063]:
+            - button "해운대구 부산광역시 - IP 주소 기반" [ref=f2e1065] [cursor=pointer]:
+              - generic [ref=f2e1066]: 해운대구 부산광역시
+              - generic [ref=f2e1068]:
+                - text: "-"
+                - generic [ref=f2e1069]: IP 주소 기반
+            - text: "-"
+            - button "위치 업데이트" [ref=f2e1071] [cursor=pointer]
+        - generic [ref=f2e1074]:
+          - link "도움말" [ref=f2e1075] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=ko&fg=1
+          - link "의견 보내기" [ref=f2e1076] [cursor=pointer]:
+            - /url: "#"
+          - link "개인정보처리방침" [ref=f2e1077] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=ko&fg=1
+          - link "약관" [ref=f2e1078] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=ko&fg=1
